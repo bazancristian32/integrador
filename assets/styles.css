@@ -84,7 +84,6 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  flex-wrap: wrap;
   align-items: center;
   background-color: #ffffff;
 }
@@ -99,14 +98,13 @@ main {
   filter: drop-shadow(8px 1px 4px #252525);
 }
 #inicio {
+  margin: auto;
+  padding: 70px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-width: 700px;
-  height: 100vh;
-  margin-top: 10px;
-  height: 100vh;
+  height: 90vh;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.5),
@@ -195,6 +193,7 @@ main {
 }
 
 #about {
+  padding: 70px 0px;
   width: 100%;
   height: 70vh;
   display: flex;
@@ -262,6 +261,7 @@ main {
 }
 #cursos {
   width: 100%;
+  padding: 70px 0px;
   height: 90vh;
   display: flex;
   justify-content: center;
@@ -329,21 +329,21 @@ main {
 }
 
 #padre-slider > ul.slider li:first-child {
-  opacity: 1; /*Mostramos el primer <li>*/
+  opacity: 1;
 }
 
 #padre-slider > ul.slider li:target {
-  opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+  opacity: 1; 
 }
 
 #padre-slider > .menu {
-  width: 800px;
+  max-width: 800px;
   text-align: center;
   margin-top: 300px;
-  padding: 30px;
+  padding: 30px 18px;
   background-color: #bdbdbd;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-evenly;width: 100%;
 }
 
 #padre-slider > .menu li {
@@ -369,6 +369,7 @@ main {
 }
 
 #contactos {
+  padding: 40px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -377,7 +378,6 @@ main {
   min-width: 700px;
   height: 9vh;
   background-color: var(--fire);
-  padding-top: 50px;
   border: solid 1px var(--france);
 }
 .contenedor-contactos {
