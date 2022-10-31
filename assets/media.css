@@ -22,6 +22,7 @@
     width: 100%;
     height: calc(100vh - 80px);
     position: absolute;
+    gap: 100px;
     top: 65px;
     left: 0;
     flex-direction: column;
@@ -29,6 +30,7 @@
     justify-content: center;
     transform: translateX(200%);
     transition: all 0.4s ease-in-out;
+    border: solid 0px 2px 2px 2px black;
   }
   .menu-burger {
     display: block;
@@ -117,19 +119,19 @@
     width: 100%;
   }
   .sobre {
-    gap: 10px;
+    margin-top: 30px;
+    gap: 5px;
   }
   .sobre h2 {
     line-height: 75px;
     font-size: 46px;
-    padding-top: 1px;
-
+    margin-top: 30px;
   }
   .card-padre {
     gap: 70px;
     padding-bottom: 80px;
   }
-  
+
   #padre-slider > ul.slider {
     max-width: 500px;
     width: 100%;
@@ -142,17 +144,17 @@
   #padre-slider > ul.slider li {
     padding: 10px 0px;
   }
-  
+
   #padre-slider > ul.slider li img {
     width: 100%;
     height: 300px;
   }
-  
+
   #padre-slider > .menu {
-    padding: 20px 18px;
+    padding: 40px 18px;
     background-color: transparent;
   }
-  
+
   #padre-slider > .menu li a {
     color: var(--text);
     background-color: var(--fire);
@@ -174,4 +176,5 @@
   .contactos {
     gap: 13px;
   }
+  
 }

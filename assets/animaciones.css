@@ -92,7 +92,7 @@
   transform: scaleX(1);
 }
 .botoncito,
-.btn-select {
+.btn-select::after {
   transition: all 0.2s ease-out;
 }
 .botoncito:hover,
@@ -106,15 +106,6 @@
   transition: all 0.3s ease-out;
 }
 .menu li a:hover {
-  background-color: var(--france);
-  transition: all 0.3s ease-in;
-  color: var(--text);
-  border-radius: 10px;
-}
-.inscribite {
-  transition: all 0.3s ease-in-out;
-}
-.inscribite:hover {
   background-color: var(--france);
   transition: all 0.3s ease-in;
   color: var(--text);

@@ -93,7 +93,7 @@ main {
   width: 300px;
   z-index: 1;
   left: 1vh;
-  bottom: -73vh;
+  bottom: -62vh;
   opacity: 0.8;
   filter: drop-shadow(8px 1px 4px #252525);
 }
@@ -183,8 +183,8 @@ main {
   align-items: center;
   background-color: transparent;
   border: solid 1px;
-  width: 100%;
-  height: 80%;
+  width: 110px;
+  height: 50px;
   background-color: var(--fire);
   border: solid 1px var(--france);
   color: var(--text);
@@ -344,7 +344,8 @@ main {
   padding: 30px 18px;
   background-color: #bdbdbd;
   display: flex;
-  justify-content: space-evenly;width: 100%;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
 #padre-slider > .menu li {
