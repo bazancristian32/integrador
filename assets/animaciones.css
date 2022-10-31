@@ -91,7 +91,7 @@
   transform-origin: bottom left;
   transform: scaleX(1);
 }
-.botoncito,
+.botoncito::after,
 .btn-select::after {
   transition: all 0.2s ease-out;
 }

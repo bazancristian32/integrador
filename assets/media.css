@@ -113,19 +113,21 @@
   }
   .btn-select {
     color: var(--text);
-    padding: 1px 14px;
+    padding: 1px 15px;
+    width: 150px;
+    height: 40px;
   }
   #about {
     width: 100%;
   }
   .sobre {
-    margin-top: 30px;
+    margin-top: 10px;
     gap: 5px;
   }
   .sobre h2 {
     line-height: 75px;
-    font-size: 46px;
-    margin-top: 30px;
+    font-size: 28px;
+    margin-top: 20px;
   }
   .card-padre {
     gap: 70px;
@@ -176,5 +178,5 @@
   .contactos {
     gap: 13px;
   }
-  
+
 }
