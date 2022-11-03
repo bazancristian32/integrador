@@ -158,7 +158,9 @@
     gap: 60px;
     padding-bottom: 80px;
   }
-
+#cursos h2{
+  font-size: 27px;
+}
   #padre-slider > ul.slider {
     max-width: 500px;
     width: 100%;
