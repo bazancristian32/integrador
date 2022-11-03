@@ -165,7 +165,7 @@ main {
 .titulo-sub p {
   color: var(--text);
   font-family: "montserrat";
-  font-size: 19px;
+  font-size: 23px;
   text-align: center;
   letter-spacing: 2px;
 }
@@ -259,6 +259,26 @@ main {
   height: 100%;
   border-radius: 20px;
 }
+.back, .back1, .back2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 4px
+}
+.titulo-card{
+  font-size: 16px;
+  font-family: "montserrat";
+}
+.sub-card{
+  font-size: 14px;
+  font-family: "poppins";
+}
+.back-img{
+  width: 40px;
+  height: 50px;
+}
 #cursos {
   width: 100%;
   padding: 70px 0px;
@@ -268,7 +288,13 @@ main {
   align-items: center;
   flex-direction: column;
 }
-
+#cursos h2 {
+  font-size: 50px;
+  text-shadow: #12122b -9px 3px 9px;
+  color: var(--fire);
+  z-index: 3;
+  height: 90%;
+}
 #padre-slider {
   background-color: white;
   max-width: 1200px;
@@ -333,7 +359,7 @@ main {
 }
 
 #padre-slider > ul.slider li:target {
-  opacity: 1; 
+  opacity: 1;
 }
 
 #padre-slider > .menu {
@@ -362,8 +388,8 @@ main {
   text-decoration: none;
   background-color: var(--fire);
   padding: 10px;
-  width: 24px;
-  height: 24px;
+  width: 35px;
+  height: 35px;
   font-size: 20px;
   border-radius: 100%;
   margin-top: 30px;

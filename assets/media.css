@@ -62,6 +62,16 @@
   .menu-div {
     padding-bottom: 20px;
   }
+  .titulo-card{
+    font-size: 22px;
+  }
+  .sub-card{
+    font-size: 18px;
+  }
+  .back-img{
+    width: 60px;
+    height: 80px;
+  }
 }
 @media (max-width: 728px) {
   .titulo-sub h1 {
@@ -84,7 +94,7 @@
   .card1,
   .card2 {
     width: 370px;
-    height:280px;
+    height:270px;
     box-shadow: none;
   }
   .img-front {
@@ -145,7 +155,7 @@
     margin-top: 20px;
   }
   .card-padre {
-    gap: 70px;
+    gap: 60px;
     padding-bottom: 80px;
   }
 
