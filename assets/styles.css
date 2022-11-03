@@ -294,6 +294,8 @@ main {
   color: var(--fire);
   z-index: 3;
   height: 90%;
+  text-align: center;
+  font-size: 46px;
 }
 #padre-slider {
   background-color: white;
