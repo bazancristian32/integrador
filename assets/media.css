@@ -79,17 +79,12 @@ display: none;
 }
 }
 @media (max-width: 576px) {
-
-.titulo-sub{
-  width: 70%;
-  height: 50%;
-}
 .titulo-sub >h1{
-  font-size: 87px;
+  font-size: 60px;
   line-height: 1;
 }
 .titulo-sub >p{
-font-size: 27px;
+font-size: 22px;
 line-height: 1.4;
 }
 .botoncito > a{
@@ -103,7 +98,7 @@ line-height: 1.4;
   gap: 90px
 }
 .cursos{
-  width:480px;
+  width:440px;
   height: 250px;
 }
 }
