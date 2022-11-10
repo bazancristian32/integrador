@@ -95,17 +95,19 @@
     padding-bottom: 30px;
   }
   .cursos-padre {
-    gap: 90px;
+    gap: 60px;
     width: 100%;
   }
   .cursos {
     width: 420px;
-    height: 450px;
+    height: 350px;
+    border-top: 3px;
+    border-bottom: 2px;
   }
-  .info-inscribirse >p{
+  .info-inscribirse > p {
     font-size: 16px;
   }
-   #contactos {
+  #contactos {
     height: 30vh;
     border-radius: 0px;
   }
