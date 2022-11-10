@@ -22,7 +22,21 @@ line-height: 1.4;
 .botoncito > a{
   width: 250px;
 }
-
+.nav-list{
+  backdrop-filter: blur(5.5px);
+  background-color: transparent;
+  border-bottom: 1px  solid #00000062;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  height: calc(100vh- 80px);
+  position: absolute;
+  top: 65px;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(200%);
+}
 .menu-burger{
   display: block;
   width: 40px;
@@ -61,24 +75,11 @@ display: none;
   font-size: 17px;
 }
 }
-@media (max-width: 576px){
-  .nav-list{
-  backdrop-filter: blur(5.5px);
-  background-color: transparent;
-  border-bottom: 1px  solid #00000062;
-  border-radius: 0px 0px 20px 20px;
-  width: 100%;
-  height: calc(100vh- 80px);
-  position: absolute;
-  top: 65px;
-  left: 0;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  transform: translateX(200%);
+@media (max-width: 576px) {
 }
 .titulo-sub{
   width: 90%;
+  height: 50%;
 }
 .titulo-sub >h1{
   font-size: 87px;
@@ -101,4 +102,5 @@ line-height: 1.4;
 .cursos{
   width:560px;
   height: 250px;
+}
 }
