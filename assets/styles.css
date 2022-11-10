@@ -45,11 +45,12 @@ header {
 .nav-list {
   gap: 60px;
   width: 50%;
+ 
 }
 .boton-nav {
   color: var(--text);
   font-size: 17px;
-  font-family: "kanit";
+  font-family: "montserrat";
   font-weight: 500;
    padding: 4px 16px;
    border-radius: 50px;
