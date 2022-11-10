@@ -7,202 +7,36 @@
   --pastel: #99c9ff;
   --fire: #780012;
 }
+@media (max-width: 992px){
 
-@media (max-width: 1176px) {
-  .nav-list {
-    gap: 40px;
-  }
-  .bg-img {
-    display: none;
-  }
+.nav-list{
+  backdrop-filter: blur(5.5px);
+  background-color: transparent;
+  border-bottom: 1px  solid #00000062;
+  border-radius: 0px 0px 20px 20px;
+  width: 100%;
+  height: calc(100vh- 80px);
+  position: absolute;
+  top: 65px;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(200%);
 }
-@media (max-width: 992px) {
-  .nav-bar ul {
-    background-color: #780012;
-    width: 100%;
-    height: calc(100vh - 80px);
-    position: absolute;
-    gap: 100px;
-    top: 65px;
-    left: 0;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    transform: translateX(200%);
-    transition: all 0.4s ease-in-out;
-    border: solid 0px 2px 2px 2px black;
-  }
-  .btn-select {
-    color: var(--text);
-    padding: 1px 15px;
-    width: 150px;
-    height: 40px;
-  }
-  .menu-burger {
-    display: block;
-    cursor: pointer;
-    width: 42px;
-  }
-  #toggle-menu:checked ~ .nav-list {
-    transform: translateX(0);
-    transition: all 0.4s ease-in;
-  }
-  .titulo-sub {
-    font-size: 24px;
-  }
-  .titulo-sub > p {
-    font-size: 22px;
-  }
-  .contenedor-slider {
-    height: 350px;
-  }
-  .precio {
-    flex-direction: column;
-  }
-  .menu-div {
-    padding-bottom: 20px;
-  }
-  .titulo-card{
-    font-size: 22px;
-  }
-  .sub-card{
-    font-size: 18px;
-  }
-  .back-img{
-    width: 60px;
-    height: 80px;
-  }
+.menu-burger{
+  display: block;
+  width: 40px;
+  cursor: pointer;
 }
-@media (max-width: 728px) {
-  .titulo-sub h1 {
-    font-size: 70px;
-    line-height: 65px;
-  }
-  #about {
-    width: 100%;
-    height: 150vh;
-  }
-  .card-padre {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-    gap: 20px;
-  }
-  .card,
-  .card1,
-  .card2 {
-    width: 370px;
-    height:270px;
-    box-shadow: none;
-  }
-  .img-front {
-    box-shadow: none;
-  }
+#toggle-menu:checked ~ .nav-list{
+  transform:  translate(0%);
+  transition: all 0.4s ease-in;
 }
-@media (max-width: 576px) {
-  #inicio {
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-top: 65px;
-    padding: 200px 12px;
-  }
-  .hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    gap: 10px;
-  }
-  .titulo-sub {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 45px;
-  }
-  .titulo-sub h1 {
-    font-size: 60px;
-    font-family: "poppin";
-    letter-spacing: 1px;
-  }
-  .titulo-sub p {
-    color: var(--text);
-    font-family: "montserrat";
-    font-size: 16px;
-    letter-spacing: 1px;
-  }
-  .btn-select {
-    color: var(--text);
-    padding: 1px 15px;
-    width: 150px;
-    height: 40px;
-    background-color: var(--fire);
-  }
-  #about {
-    width: 100%;
-  }
-  .sobre {
-    margin-top: 10px;
-    gap: 5px;
-  }
-  .sobre h2 {
-    line-height: 75px;
-    font-size: 28px;
-    margin-top: 20px;
-  }
-  .card-padre {
-    gap: 60px;
-    padding-bottom: 80px;
-  }
-#cursos h2{
-  font-size: 27px;
+.bus{
+  display: none;
 }
-  #padre-slider > ul.slider {
-    max-width: 500px;
-    width: 100%;
-    height: 300px;
-  }
-  .info-inscribite {
-    height: 100px;
-    margin-bottom: 1px;
-  }
-  #padre-slider > ul.slider li {
-    padding: 10px 0px;
-  }
-
-  #padre-slider > ul.slider li img {
-    width: 100%;
-    height: 300px;
-  }
-
-  #padre-slider > .menu {
-    padding: 40px 18px;
-    background-color: transparent;
-  }
-
-  #padre-slider > .menu li a {
-    color: var(--text);
-    background-color: var(--fire);
-    padding: 20px;
-    font-size: 18px;
-  }
-  #contactos {
-    width: 100%;
-    height: 22vh;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 30px;
-  }
-  .contenedor-contactos {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-  }
-  .contactos {
-    gap: 13px;
-  }
+.titulo-sub > h2{
+font-size: 10px;
+}
 }

@@ -61,24 +61,24 @@
   transform: perspective(500px) rotateY(360deg);
  
 }
-.nav-bar .nav-list li {
+.boton-nav {
   position: relative;
   padding: 0;
 }
 .nav-bar .nav-list li a::after {
   content: "";
   height: 2px;
-  width: 100%;
+  width: 80%;
   background: #c31432; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #ffffff,
-    #fd3053
+    #fd8da0
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #ffffff,
-    #ff3c5d
+    #fd879b
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: absolute;
   bottom: 0;
@@ -90,15 +90,17 @@
 .nav-list li a:hover::after {
   transform-origin: bottom left;
   transform: scaleX(1);
+  background-color: #fd3053;
 }
-.botoncito::after,
+.btn-select2::after,
 .btn-select::after {
   transition: all 0.2s ease-out;
 }
-.botoncito:hover,
+.btn-select2:hover,
 .btn-select:hover {
- background: var(--france);
-  transition: all 0.2s ease-in;
+ background: transparent;
+ border: dotted 2px var(--text);
+  transition: all 0.1s ease-in-out;
   color: var(--text);
   border-radius: 10px;
 }
@@ -110,4 +112,16 @@
   transition: all 0.3s ease-in;
   color: var(--text);
   border-radius: 10px;
+}
+.bus{
+  animation: translateX 5s infinite;
+  animation-direction: alternate;
+}
+@keyframes translateX{
+  0%{
+    transform: translateX(100px);
+  }
+  100%{
+    transform: translate(500px);
+  }
 }

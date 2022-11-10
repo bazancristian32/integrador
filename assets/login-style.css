@@ -92,7 +92,7 @@ body{
     rgba(0, 0, 0, 0.5),
     rgba(0, 0, 0, 0.5)
   ),
-  url(/assets/imagenes/pipol.png);
+  url(/assets/imagenes/instituto.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
@@ -112,12 +112,12 @@ background-position: center center;
   background: #c31432; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
-    #240b36,
+    #482d5c,
     #c31432
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
-    #240b36,
+    #482d5c,
     #c31432
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   border-radius: 10px;
