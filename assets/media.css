@@ -88,7 +88,7 @@
     line-height: 1.4;
   }
   .botoncito > a {
-    width: 170px;
+    width: 140px;
   }
   .subtitulo {
     font-size: 57px;
@@ -96,10 +96,14 @@
   }
   .cursos-padre {
     gap: 90px;
+    width: 100%;
   }
   .cursos {
-    width: 450px;
-    height: 400px;
+    width: 420px;
+    height: 450px;
+  }
+  .info-inscribirse >p{
+    font-size: 16px;
   }
    #contactos {
     height: 30vh;
