@@ -204,3 +204,33 @@ a:hover {
   color: var(--fire);
   font-size: 18px;
 }
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    margin: 40px;
+  }
+  footer >span{
+    background-color: var(--text);
+    padding: 0px 20px;
+    color: var(--fire);
+  }
+  @media (max-width: 992px){
+    form{
+        width: 90%;
+        height: 95% ;
+    }
+    .formulario{
+        padding-top: 70px;
+        height: 750px;
+        width: 380px;
+    }
+    .logo-lg{
+        top: 120px;
+    }
+    a{
+        bottom: 70px;
+    }
+  }
