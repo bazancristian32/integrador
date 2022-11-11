@@ -117,6 +117,14 @@
   animation: translateX 5s infinite;
   animation-direction: alternate;
 }
+.contactos >a::after{
+  transition: all 0.2s ease-out;
+}
+.contactos >a:hover{
+  color: var(--fire);
+  transition: all 0.2s ease-out;
+  font-size: 17px;
+}
 @keyframes translateX{
   0%{
     transform: translateX(100px);

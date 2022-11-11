@@ -25,6 +25,11 @@
   .botoncito > a {
     width: 250px;
   }
+  .nav-bar {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+  }
   .nav-list {
     background: linear-gradient(to top, #310111f3, #630000, #ca0000);
     backdrop-filter: blur(4.5px);

@@ -157,8 +157,6 @@ footer {
   gap: 12px;
   background-color: transparent;
 }
-footer > p {
-}
 .register-box {
   display: flex;
   justify-content: start;

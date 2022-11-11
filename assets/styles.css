@@ -326,7 +326,7 @@ main {
   flex-wrap: wrap;
 }
 .cursos{
-  width: 560px;
+  width: 540px;
   height: 340px;
   display: flex;
   justify-content: center;
