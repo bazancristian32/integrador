@@ -10,6 +10,7 @@
 @media (max-width: 992px) {
   header {
     background: #ca0000;
+    width: 100%;
   }
   .titulo-sub {
     width: 90%;
@@ -63,9 +64,6 @@
   }
   .cursos-padre {
     gap: 60px;
-  }
-  .cursos {
-    width: 800px;
   }
   .img-bg {
     display: none;
