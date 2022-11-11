@@ -101,8 +101,8 @@
   .cursos {
     width: 420px;
     height: 350px;
-    border-top: 3px;
-    border-bottom: 2px;
+    border-top: solid #7c7c7c63 1px;
+    border-bottom: solid #7c7c7c63 2px;
   }
   .info-inscribirse > p {
     font-size: 16px;
