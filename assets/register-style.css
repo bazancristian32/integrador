@@ -25,18 +25,20 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+/* HEADER */
 header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 30px;
   position: fixed;
   top: 0;
   z-index: 4;
   background: linear-gradient(to top, #310111f3, #630000, #ca0000);
 }
+/* NAV BAR */
 .nav-bar,
 .nav-list {
   display: flex;
@@ -50,6 +52,7 @@ header {
 .nav-list {
   gap: 60px;
 }
+/* BOTONES NAVBAR */
 .boton-nav {
   color: var(--text);
   font-size: 17px;
@@ -58,6 +61,7 @@ header {
   padding: 4px 16px;
   border-radius: 50px;
 }
+/* LOGO HEADER */
 .logo {
   background-color: #fef1e0;
   border-radius: 40px;
@@ -71,6 +75,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+/* MENU HAMBURGUESA */
 .menu-burger {
   display: none;
 }
@@ -91,6 +96,7 @@ form {
   justify-content: center;
   align-items: center;
 }
+/* FORMULARIO */
 .formulario {
   display: flex;
   justify-content: center;
@@ -106,6 +112,7 @@ form {
   border-left: solid 5px #7c7c7c63;
   border-bottom: solid 3px #7c7c7c63;
 }
+/* LOGO CARD */
 .logo-lg {
   background-color: transparent;
   width: 150px;
@@ -114,6 +121,7 @@ form {
   top: 140px;
   left: calc(50% -50px);
 }
+/* BOTON ENTER */
 .enter {
   display: flex;
   justify-content: center;
@@ -130,6 +138,7 @@ form {
   font-family: "kanit";
   font-weight: 400;
 }
+/* TEMINOS Y CONDICIONES */
 ul {
   display: flex;
   justify-content: center;
@@ -140,8 +149,7 @@ a {
   color: black;
   font-size: 17px;
 }
-.mail,
-.password {
+input {
   border-radius: 2px;
   background-color: #d4d4d456;
   color: black;
@@ -170,6 +178,7 @@ label {
   align-items: center;
   text-align: center;
 }
+/* TERMINOS Y CONDICIONES */
 .condiciones {
   display: flex;
   justify-content: center;
@@ -184,6 +193,15 @@ label {
   text-align: center;
   line-height: 1;
 }
+a::after {
+  transition: all 2s ease-in-out;
+}
+a:hover {
+  transition: all 0.1s ease-in-out;
+  color: var(--fire);
+  font-size: 18px;
+}
+/* BOTON ENTER ANIMACION */
 .enter::after {
   transition: all 0.2s ease-out;
 }
@@ -194,15 +212,7 @@ label {
   color: var(--fire);
   border-radius: 10px;
 }
-a::after {
-  transition: all 2s ease-in-out;
-}
-a:hover {
-  transition: all 0.1s ease-in-out;
-  color: var(--fire);
-  font-size: 18px;
-}
-
+/* FOOTER */
 footer{
     display: flex;
     justify-content: center;

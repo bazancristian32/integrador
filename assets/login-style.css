@@ -25,18 +25,21 @@ body {
   max-width: 1200px;
   margin: auto;
 }
+/* HEADER */
+
 header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 30px;
   position: fixed;
   top: 0;
   z-index: 4;
   background: linear-gradient(to top, #310111f3, #630000, #ca0000);
 }
+/* NAV BAR */
 .nav-bar,
 .nav-list {
   display: flex;
@@ -58,6 +61,7 @@ header {
   padding: 4px 16px;
   border-radius: 50px;
 }
+/* LOGO HEADER */
 .logo {
   background-color: #fef1e0;
   border-radius: 40px;
@@ -71,6 +75,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+/* MENU HAMBURGUESA */
 .menu-burger {
   display: none;
 }
@@ -106,6 +111,7 @@ form {
   border-left: solid 5px #7c7c7c63;
   border-bottom: solid 3px #7c7c7c63;
 }
+/* LOGO CARD */
 .logo-lg {
   background-color: transparent;
   width: 150px;
@@ -114,6 +120,7 @@ form {
   top: 140px;
   left: calc(50% -50px);
 }
+/* BOTON ENTER */
 .enter {
   display: flex;
   justify-content: center;
@@ -130,6 +137,7 @@ form {
   font-family: "kanit";
   font-weight: 400;
 }
+/* TERMINOS Y CONDICONES/INFO/CREAR CUENTA */
 ul {
   display: flex;
   justify-content: center;
@@ -142,6 +150,7 @@ a {
   font-size: 17px;
   margin: 10px;
 }
+/* LOGIN-PASSWORD */
 .mail,
 .password {
   border-radius: 2px;
@@ -159,6 +168,7 @@ footer {
   gap: 12px;
   background-color: transparent;
 }
+/* ANIMACIONES DE BOTON ENTER */
 .enter::after {
   transition: all 0.2s ease-out;
 }
@@ -168,7 +178,8 @@ footer {
   transition: all 0.1s ease-in-out;
   color: var(--fire);
   border-radius: 10px;
-}
+  }
+/* ANIMACIONES DE TERMINOS Y CONDICIONES */
 a::after {
   transition: all 2s ease-in-out;
 }
@@ -177,6 +188,7 @@ a:hover {
   color: var(--fire);
   font-size: 18px;
 }
+/* FOOTER */
 footer {
   display: flex;
   justify-content: center;

@@ -15,6 +15,7 @@
   text-decoration: none;
   list-style-type: none;
 }
+/* CARD GIRATORIAS */
 .card div,
 .card1 div,
 .card2 div {
@@ -27,12 +28,14 @@
   backface-visibility: hidden;
   transition: 1s;
 }
+/* CARD GIRATORIAS FRONTAL */
 .card .front,
 .card1 .front1,
 .card2 .front2 {
   background-color: transparent;
   transform: perspective(500px) rotateY(0deg);
 }
+/* CARD GIRATORIAS TRASERAS */
 .card .back,
 .card1 .back1,
 .card2 .back2 {
@@ -40,6 +43,7 @@
   transform: perspective(500px) rotateY(180deg);
   border-radius: 20px;
 }
+/* ANIMACIONES */
 .card:hover .front {
   transform: perspective(500px) rotateY(180deg);
 }
@@ -61,6 +65,7 @@
   transform: perspective(500px) rotateY(360deg);
  
 }
+/* BOTON NAVBAR  */
 .boton-nav {
   position: relative;
   padding: 0;
@@ -92,18 +97,8 @@
   transform: scaleX(1);
   background-color: #fd3053;
 }
-.btn-select2::after,
-.btn-select::after {
-  transition: all 0.2s ease-out;
-}
-.btn-select2:hover,
-.btn-select:hover {
- background: transparent;
- border: dotted 2px var(--text);
-  transition: all 0.1s ease-in-out;
-  color: var(--text);
-  border-radius: 10px;
-}
+
+
 .menu li a {
   transition: all 0.3s ease-out;
 }
@@ -113,17 +108,10 @@
   color: var(--text);
   border-radius: 10px;
 }
+/* BUS ANIMACIONES */
 .bus{
   animation: translateX 5s infinite;
   animation-direction: alternate;
-}
-.contactos >a::after{
-  transition: all 0.2s ease-out;
-}
-.contactos >a:hover{
-  color: var(--fire);
-  transition: all 0.2s ease-out;
-  font-size: 17px;
 }
 @keyframes translateX{
   0%{
@@ -133,3 +121,14 @@
     transform: translate(500px);
   }
 }
+
+/* CONTACTOS */
+.contactos >a::after{
+  transition: all 0.2s ease-out;
+}
+.contactos >a:hover{
+  color: var(--fire);
+  transition: all 0.2s ease-out;
+  font-size: 17px;
+}
+

@@ -1,3 +1,1 @@
-# integrador
-#Falta mq
-#Login si te inscribis
+ARREGLAR PROBLEMAS DE MEDIA QUERIES

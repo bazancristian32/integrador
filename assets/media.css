@@ -12,6 +12,10 @@
     background: #ca0000;
     width: 100%;
   }
+  /* INICIO */
+  #inicio {
+    width: 90%;
+  }
   .titulo-sub {
     width: 90%;
   }
@@ -46,6 +50,7 @@
     justify-content: center;
     transform: translateX(200%);
   }
+  /* MENU HAMBURGUESA */
   .menu-burger {
     display: block;
     width: 40px;
@@ -55,19 +60,24 @@
     transform: translate(0%);
     transition: all 0.4s ease-in;
   }
+  /* BUS */
   .bus {
     display: none;
   }
+  /* SUBTITULOS */
   .subtitulo {
     font-size: 70px;
     padding-bottom: 30px;
   }
+  /* CONTENEDOR PADRE CURSOS */
   .cursos-padre {
     gap: 60px;
   }
+  /* BIG BEN FONDO */
   .img-bg {
     display: none;
   }
+  /* CONTACTOS */
   #contactos {
     height: 30vh;
     border-radius: 0px;
@@ -82,9 +92,11 @@
   }
 }
 @media (max-width: 576px) {
+  /* HEADER */
   header {
     width: 100%;
   }
+  /* TITULO HERO */
   .titulo-sub > h1 {
     font-size: 60px;
     line-height: 1;
@@ -100,6 +112,7 @@
     font-size: 57px;
     padding-bottom: 30px;
   }
+  /* CONTENEDOR PADRE CURSOS */
   .cursos-padre {
     gap: 60px;
     width: 100%;
@@ -113,6 +126,7 @@
   .info-inscribirse > p {
     font-size: 18px;
   }
+  /* CONTACTOS */
   #contactos {
     height: 30vh;
     border-radius: 0px;
@@ -125,6 +139,7 @@
   .contactos > span {
     font-size: 15px;
   }
+  /* IMAGEN DE CAMBRIDGE */
   .cambridge {
     width: 10%;
     height: 15%;

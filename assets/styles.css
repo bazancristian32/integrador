@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,600;1,900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@400;700&display=swap");
 :root {
+  /* TEXTO */
   --text: #fef1e0;
-  --text2: #684416;
+  /* LINEA */
   --france: #12122b;
-  --enfasis: #6879c0;
-  --pastel: #99c9ff;
   --fire: #780012;
+  /* ENFASIS */
 }
 * {
   font-family: "poppins";
@@ -15,25 +15,29 @@
   text-decoration: none;
   list-style-type: none;
 }
+/* CONTENEDOR */
 .container {
   max-width: 1200px;
   margin: auto;
 }
-body{
+body {
   width: 100%;
 }
+
+/* HEADER */
 header {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  padding: 0px 30px 0px 30px;
+  padding: 0px 30px;
   position: fixed;
   top: 0;
   z-index: 4;
   backdrop-filter: blur(4.5px);
 }
+/* NAVBAR */
 .nav-bar,
 .nav-list {
   display: flex;
@@ -43,21 +47,21 @@ header {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
- 
 }
 .nav-list {
   gap: 60px;
   width: 50%;
- 
 }
+/* BOTON NAVBAR */
 .boton-nav {
   color: var(--text);
   font-size: 17px;
   font-family: "montserrat";
   font-weight: 500;
-   padding: 4px 16px;
-   border-radius: 50px;
+  padding: 4px 16px;
+  border-radius: 50px;
 }
+/* LOGO NABVBAR */
 .logo {
   border-radius: 40px;
   display: flex;
@@ -71,12 +75,15 @@ header {
   justify-content: center;
   align-items: center;
 }
+
+/* MENU HAMBURGUESA */
 .menu-burger {
   display: none;
 }
 #toggle-menu {
   display: none;
 }
+
 main {
   width: 100%;
   display: flex;
@@ -85,9 +92,9 @@ main {
   align-items: center;
   background-color: #ffffff;
 }
+/* HERO */
 #inicio {
   margin: auto;
-  padding: 70px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -115,6 +122,7 @@ main {
   flex-wrap: wrap;
   gap: 80px;
 }
+/* TITULO HERO */
 .titulo-sub {
   width: 70%;
   display: flex;
@@ -123,6 +131,7 @@ main {
   gap: 55px;
   color: var(--text);
 }
+/* SUB-TITULO HERO */
 .titulo-sub h1 {
   font-size: 90px;
   font-family: "poppin";
@@ -150,6 +159,7 @@ main {
   font-weight: 600;
   text-shadow: -6px 1px 1px #ffffff;
 }
+/* INFO HERO */
 .titulo-sub p {
   color: var(--text);
   font-family: "montserrat";
@@ -159,6 +169,8 @@ main {
   font-weight: 700;
   line-height: 1.5;
 }
+
+/* BOTON HERO */
 .btn {
   display: flex;
   justify-content: space-evenly;
@@ -183,6 +195,7 @@ main {
   font-size: 25px;
 }
 
+/* INFORMACION SOBRE EL INSTITUTO */
 #about {
   padding: 70px 0px;
   margin: auto;
@@ -193,10 +206,19 @@ main {
   align-items: center;
   flex-direction: column;
   padding-top: 44px;
-  background: c;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #240b36, #fa002a);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #ca0000, #630000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #240b36,
+    #fa002a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #ca0000,
+    #630000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/* CONTENEDOR INFO */
 .sobre {
   display: flex;
   justify-content: center;
@@ -206,6 +228,8 @@ main {
   gap: 40px;
   padding-top: 40px;
 }
+
+/* SUB-TITULO INFORMACION */
 .sobre h2 {
   display: flex;
   justify-content: center;
@@ -220,6 +244,7 @@ main {
   width: 100%;
   text-align: center;
 }
+/* CARDS */
 .card-padre {
   padding-top: 90px;
   display: flex;
@@ -238,13 +263,14 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+
   cursor: pointer;
   border: solid 2px var(--text);
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
     rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
+/* IMAGEN FRONTAL DE CARD GIRATORIA */
 .img-front {
   display: flex;
   justify-content: center;
@@ -253,6 +279,7 @@ main {
   height: 100%;
   border-radius: 20px;
 }
+/* CARDS BACK */
 .back,
 .back1,
 .back2 {
@@ -263,6 +290,7 @@ main {
   text-align: center;
   gap: 4px;
 }
+/* INFORMACION SOBRE CARD TRASERA */
 .titulo-card {
   font-size: 16px;
   font-family: "montserrat";
@@ -274,24 +302,9 @@ main {
 .back-img {
   width: 40px;
   height: 50px;
+}
 
-}
-.btn-select2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: transparent;
-  border: solid 1px;
-  width: 100px;
-  height: 35px;
-  background-color: var(--fire);
-  border: solid 1px var(--france);
-  color: var(--text);
-  padding: 3px 18px;
-  border-radius: 10px;
-  font-size: 16px;
-}
-.sobre-nosotros{
+.sobre-nosotros {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -299,7 +312,8 @@ main {
   width: 100%;
   padding-top: 16px;
 }
-.sobre-nosotros p{
+/* INFORMACION SOBRE NOSOTROS */
+.sobre-nosotros p {
   font-size: 20px;
   text-align: center;
   color: var(--text);
@@ -307,19 +321,30 @@ main {
   padding-bottom: 50px;
   border-radius: 20px;
 }
-#cursos{
+
+/* CURSOS */
+#cursos {
   width: 100%;
   margin: auto;
   padding: 40px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  background: #8a0000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #310111f3, #630000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #8a0000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #240b36,
+    #c31432
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #310111f3,
+    #630000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   z-index: 2;
 }
-.subtitulo{
+/* SUBTITULOS COMO TRABAJAMOS & CUROSOS */
+.subtitulo {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -334,7 +359,8 @@ main {
   text-align: center;
   margin-bottom: 59px;
 }
-.cursos-padre{
+/* CONTENEDOR PADRE CURSOS */
+.cursos-padre {
   width: 100%;
   height: 100%;
   display: flex;
@@ -344,7 +370,9 @@ main {
   gap: 10px;
   flex-wrap: wrap;
 }
-.cursos{
+
+/* CARD CURSOS INDIVIDUALES */
+.cursos {
   width: 540px;
   height: 340px;
   display: flex;
@@ -355,32 +383,27 @@ main {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
   border-left: solid 4px #7c7c7c63;
 }
-.padre{
+/* TITULO+IMAGENES CARD */
+.titulo-img {
   display: flex;
-  width: 100%;
-  height: 100%;
-  background-color: #780012;
-  border-radius: 20px;
-  box-shadow: rgba(70, 70, 70, 0.048) 0px 2px 1px, rgba(255, 255, 255, 0.034) 1px -12px 30px, rgba(255, 255, 255, 0) 0px 0px 0px, rgba(85, 27, 245, 0) 0px 0px 0px, rgba(188, 188, 189, 0.027) 0px 20px 55px;
+  width: 50%;
+  height: 80%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+  background-color: transparent;
+  border-radius: 20px 0px 0px 20px;
 }
-.titulo-img{
-display: flex;
-width: 50%;
-height: 80%;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-gap: 7px;
-background-color: transparent;
-border-radius: 20px 0px 0px 20px;
-}
-.titulo-img >h4{
+/* TITULO DE CARDS */
+.titulo-img > h4 {
   font-size: 22px;
   color: var(--text);
   font-family: "montserrat";
   padding: 4px 4px;
 }
-.info-inscribirse{
+/* INFORMACION DE CARDS */
+.info-inscribirse {
   width: 50%;
   height: 80%;
   display: flex;
@@ -391,14 +414,14 @@ border-radius: 20px 0px 0px 20px;
   padding: 12px 6px;
   border-radius: 0px 20px 20px 0px;
   background-color: transparent;
- }
-.info-inscribirse>p{
+}
+.info-inscribirse > p {
   font-size: 18px;
   color: var(--text);
   font-family: "montserrat";
   text-align: left;
 }
-.info-inscribirse> a{
+.info-inscribirse > a {
   background: #ffffff;
   padding: 3px 7px;
   font-size: 21px;
@@ -407,41 +430,45 @@ border-radius: 20px 0px 0px 20px;
   font-weight: 600;
   border-radius: 3px;
 }
-.img-curso{
-width: 200px;
-height: 170px;
-border-radius: 7px;
+.img-curso {
+  width: 200px;
+  height: 170px;
+  border-radius: 7px;
 }
-.info-inscribirse{
-width: 70%;
-text-align: center;
+.info-inscribirse {
+  width: 70%;
+  text-align: center;
 }
-.buss{
+/* BUS */
+.buss {
   width: 100%;
   position: absolute;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  z-index: 1 ;
+  z-index: 1;
   bottom: 6vh;
 }
-.bus{
+.bus {
   width: 300px;
   height: 200px;
 }
-.img-bg{
+/* BIG BEN BACK */
+.img-bg {
   position: absolute;
   left: 3vh;
   bottom: -258vh;
   left: 0;
   opacity: 0.9;
-  filter: drop-shadow(rgba(26, 26, 26, 0.781) 50px 1px 12px ) ;
+  filter: drop-shadow(rgba(26, 26, 26, 0.781) 50px 1px 12px);
   z-index: 1;
 }
-.big-ben{
+.big-ben {
   width: 380px;
   height: 400px;
 }
+
+/* CONTACTOS */
 #contactos {
   margin: auto;
   padding: 40px 0px;
@@ -453,7 +480,8 @@ text-align: center;
   height: 12vh;
   background-color: var(--fire);
   border: solid 1px var(--france);
-  border-radius: 30px; background-color: #310111f3;
+  border-radius: 30px;
+  background-color: #310111f3;
 }
 .contenedor-contactos {
   display: flex;
@@ -464,28 +492,28 @@ text-align: center;
   flex-direction: row;
   gap: 50px;
 }
-.contactos, .contactos>a {
+.contactos,
+.contactos > a {
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 13px;
- 
   color: var(--text);
   padding: 7px 9px;
   border-radius: 9px;
 }
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-footer >span{
+footer > span {
   background-color: var(--text);
   padding: 0px 20px;
   color: var(--fire);
 }
-.cambridge{
+.cambridge {
   flex-direction: column;
   display: flex;
   justify-content: end;
@@ -495,15 +523,15 @@ footer >span{
   gap: 5px;
   border-bottom: 1px solid wheat;
 }
-.img-cam{
+.img-cam {
   width: 40px;
   height: 35px;
 }
-.cambridge p{
+.cambridge p {
   font-size: 15px;
   color: white;
 }
-.cambridge span{
+.cambridge span {
   font-size: 13px;
   color: white;
 }
