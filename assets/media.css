@@ -82,6 +82,9 @@
   }
 }
 @media (max-width: 576px) {
+  header {
+    width: 100%;
+  }
   .titulo-sub > h1 {
     font-size: 60px;
     line-height: 1;
@@ -120,6 +123,24 @@
     gap: 13px;
   }
   .contactos > span {
-    font-size: 15fpx;
+    font-size: 15px;
+  }
+  .cambridge {
+    width: 10%;
+    height: 15%;
+    gap: 4px;
+    border-bottom: 1px solid wheat;
+  }
+  .img-cam {
+    width: 35px;
+    height: 32px;
+  }
+  .cambridge p {
+    font-size: 12px;
+    color: white;
+  }
+  .cambridge span {
+    font-size: 11px;
+    color: white;
   }
 }
