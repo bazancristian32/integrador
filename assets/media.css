@@ -117,9 +117,9 @@
   .contenedor-contactos {
     flex-direction: column;
     text-align: center;
-    gap: 14px;
+    gap: 13px;
   }
   .contactos > span {
-    font-size: 17px;
+    font-size: 15fpx;
   }
 }
