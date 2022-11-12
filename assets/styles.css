@@ -19,14 +19,16 @@
   max-width: 1200px;
   margin: auto;
 }
+body{
+  width: 100%;
+}
 header {
-  
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 65px;
-  padding: 0px 30px 0px 20px;
+  padding: 0px 30px 0px 30px;
   position: fixed;
   top: 0;
   z-index: 4;
@@ -57,14 +59,14 @@ header {
    border-radius: 50px;
 }
 .logo {
-  background-color: #fef1e0;
   border-radius: 40px;
   display: flex;
   justify-content: center;
   margin-left: 40px;
+  width: 10%;
 }
 .logo-nav {
-  width: 63px;
+  width: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -430,7 +432,7 @@ text-align: center;
 .img-bg{
   position: absolute;
   left: 3vh;
-  bottom: -222vh;
+  bottom: -258vh;
   left: 0;
   opacity: 0.9;
   filter: drop-shadow(rgba(26, 26, 26, 0.781) 50px 1px 12px ) ;
