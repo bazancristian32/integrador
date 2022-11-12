@@ -467,7 +467,7 @@ main {
 /* CONTACTOS */
 #contactos {
   margin: auto;
-  padding: 40px 0px;
+  padding: 70px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -478,6 +478,7 @@ main {
   border: solid 1px var(--france);
   border-radius: 30px;
   background-color: #310111f3;
+
 }
 .contenedor-contactos {
   display: flex;
