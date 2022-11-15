@@ -114,8 +114,67 @@
     border-top: solid #7c7c7c63 1px;
     border-bottom: solid #7c7c7c63 2px;
   }
+  .titulo-img {
+    display: flex;
+    width: 50%;
+    height: 40%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: transparent;
+    border-radius: 20px 0px 0px 20px;
+  }
+  /* TITULO DE CARDS */
+  .titulo-img > h4 {
+    font-size: 17px;
+    color: var(--text);
+    font-family: "montserrat";
+    padding: 4px 4px;
+  }
+  /* INFORMACION DE CARDS */
+  .info-inscribirse {
+    width: 50%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 7px 3px;
+    border-radius: 0px 20px 20px 0px;
+    background-color: transparent;
+  }
   .info-inscribirse > p {
-    font-size: 18px;
+    font-size: 15px;
+    color: var(--text);
+    font-family: "montserrat";
+    text-align: left;
+  }
+  .info-inscribirse > a {
+    display: flex;
+    width: 90px;
+    background: #ffffff;
+    font-size: 14px;
+    color: var(--france);
+    font-family: "kanit";
+    font-weight: 600;
+    border-radius: 3px;
+  }
+  .img-curso {
+    width: 100px;
+    height: 190px;
+    border-radius: 7px;
+  }
+  .btn-select::after, .btn-select2::after {
+    transition: all 0.2s ease-in-out;
+  }
+  .btn-select:hover, .btn-select2:hover {
+    color: white;
+    transition: all 0.2 ease-in-out;
+    background-color: transparent;
+    border: dotted 3px white;
+    font-size: 14px;
   }
   /* CONTACTOS */
   #contactos {

@@ -107,10 +107,20 @@
 }
 
 /* BOTONES */
-.btn-select::after {
+.btn-select::after{
   transition: all 0.2s ease-in-out;
 }
-.btn-select:hover {
+.btn-select:hover{
+  color: white;
+  transition: all 0.2 ease-in-out;
+  background-color: transparent;
+  border: dotted 3px white;
+  font-size: 26px;
+}
+.btn-select2:hover {
+  transition: all 0.2s ease-in-out;
+}
+.btn-select2:hover {
   color: white;
   transition: all 0.2 ease-in-out;
   background-color: transparent;
