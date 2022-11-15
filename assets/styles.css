@@ -482,6 +482,16 @@ main {
   padding: 7px 9px;
   border-radius: 9px;
 }
+.mapa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe{
+  width: 100px;
+  height: 70px;
+  border-radius: 100%;
+}
 
 footer {
   display: flex;
