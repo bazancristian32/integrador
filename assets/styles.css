@@ -447,20 +447,6 @@ main {
   width: 300px;
   height: 200px;
 }
-/* BIG BEN BACK */
-.img-bg {
-  position: absolute;
-  left: 3vh;
-  bottom: -258vh;
-  left: 0;
-  opacity: 0.9;
-  filter: drop-shadow(rgba(26, 26, 26, 0.781) 50px 1px 12px);
-  z-index: 1;
-}
-.big-ben {
-  width: 380px;
-  height: 400px;
-}
 
 /* CONTACTOS */
 #contactos {

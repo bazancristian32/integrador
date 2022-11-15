@@ -68,10 +68,6 @@
   .cursos-padre {
     gap: 60px;
   }
-  /* BIG BEN FONDO */
-  .img-bg {
-    display: none;
-  }
   /* CONTACTOS */
   #contactos {
     height: 30vh;
@@ -113,8 +109,8 @@
     width: 100%;
   }
   .cursos {
-    width: 420px;
-    height: 350px;
+    width: 290px;
+    height: 230px;
     border-top: solid #7c7c7c63 1px;
     border-bottom: solid #7c7c7c63 2px;
   }
