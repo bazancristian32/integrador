@@ -81,6 +81,9 @@
   .contactos > span {
     font-size: 17px;
   }
+  iframe {
+    display: none;
+  }
 }
 @media (max-width: 576px) {
   /* HEADER */
@@ -166,10 +169,12 @@
     height: 190px;
     border-radius: 7px;
   }
-  .btn-select::after, .btn-select2::after {
+  .btn-select::after,
+  .btn-select2::after {
     transition: all 0.2s ease-in-out;
   }
-  .btn-select:hover, .btn-select2:hover {
+  .btn-select:hover,
+  .btn-select2:hover {
     color: white;
     transition: all 0.2 ease-in-out;
     background-color: transparent;
