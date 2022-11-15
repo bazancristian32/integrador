@@ -1,10 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300;1,600;1,900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@400;700&display=swap");
 :root {
   --text: #fef1e0;
-  --text2: #684416;
   --france: #12122b;
-  --enfasis: #6879c0;
-  --pastel: #99c9ff;
   --fire: #780012;
 }
 * {
@@ -49,21 +46,18 @@
 }
 .card:hover .back {
   transform: perspective(500px) rotateY(360deg);
- 
 }
 .card1:hover .front1 {
   transform: perspective(500px) rotateY(180deg);
 }
 .card1:hover .back1 {
   transform: perspective(500px) rotateY(360deg);
-
 }
 .card2:hover .front2 {
   transform: perspective(500px) rotateY(180deg);
 }
 .card2:hover .back2 {
   transform: perspective(500px) rotateY(360deg);
- 
 }
 /* BOTON NAVBAR  */
 .boton-nav {
@@ -98,37 +92,37 @@
   background-color: #fd3053;
 }
 
-
-.menu li a {
-  transition: all 0.3s ease-out;
-}
-.menu li a:hover {
-  background-color: var(--france);
-  transition: all 0.3s ease-in;
-  color: var(--text);
-  border-radius: 10px;
-}
 /* BUS ANIMACIONES */
-.bus{
+.bus {
   animation: translateX 5s infinite;
   animation-direction: alternate;
 }
-@keyframes translateX{
-  0%{
+@keyframes translateX {
+  0% {
     transform: translateX(100px);
   }
-  100%{
+  100% {
     transform: translate(500px);
   }
 }
 
+/* BOTONES */
+.btn-select::after {
+  transition: all 0.2s ease-in-out;
+}
+.btn-select:hover {
+  color: white;
+  transition: all 0.2 ease-in-out;
+  background-color: transparent;
+  border: dotted 3px white;
+  font-size: 21px;
+}
 /* CONTACTOS */
-.contactos >a::after{
+.contactos > a::after {
   transition: all 0.2s ease-out;
 }
-.contactos >a:hover{
+.contactos > a:hover {
   color: var(--fire);
   transition: all 0.2s ease-out;
   font-size: 17px;
 }
-

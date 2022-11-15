@@ -10,10 +10,9 @@
 @media (max-width: 992px) {
   header {
     background: #ca0000;
-    width: 95%;
   }
   .titulo-sub {
-    width: 90%;
+    width: 100%;
   }
   .titulo-sub > h1 {
     font-size: 90px;
@@ -44,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    transform: translateX(200%);
+    transform: translateY(-200%);
   }
   /* MENU HAMBURGUESA */
   .menu-burger {

@@ -40,14 +40,12 @@ header {
   align-items: center;
 }
 .nav-bar {
-  padding: auto;
   width: 80%;
   display: flex;
   justify-content: space-evenly;
 }
 .nav-list {
   gap: 60px;
-  width: 50%;
 }
 /* BOTON NAVBAR */
 .boton-nav {
@@ -55,7 +53,7 @@ header {
   font-size: 17px;
   font-family: "montserrat";
   font-weight: 500;
-  padding: 4px 16px;
+  padding: 4px 13px;
   border-radius: 50px;
 }
 /* LOGO NABVBAR */
@@ -64,10 +62,9 @@ header {
   display: flex;
   justify-content: center;
   margin-left: 40px;
-  width: 10%;
 }
 .logo-nav {
-  width: 70px;
+  width: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -107,6 +104,7 @@ main {
   background-position: center;
   box-shadow: rgb(245, 250, 255) 0px 20px 30px -10px;
   border: solid 1px var(--france);
+  padding-top: 20px;
 }
 .hero {
   display: flex;
@@ -173,6 +171,7 @@ main {
   align-items: center;
   flex-direction: row;
   gap: 40px;
+  z-index: 3;
 }
 
 .btn-select {
@@ -478,7 +477,6 @@ main {
   border: solid 1px var(--france);
   border-radius: 30px;
   background-color: #310111f3;
-
 }
 .contenedor-contactos {
   display: flex;
